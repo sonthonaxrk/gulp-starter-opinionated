@@ -1,0 +1,20 @@
+{
+  "name": "gulp-starter",
+  "version": "0.0.0",
+  "homepage": "https://github.com/rollokb/ContractWebSite",
+  "authors": [
+    "= <=>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "basscss-sass": "~3.0.0",
+    "font-awesome": "~4.4.0"
+  }
+}

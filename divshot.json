@@ -1,0 +1,10 @@
+{
+  "name": "gulp-starter-opinionated",
+  "root": "./public",
+  "clean_urls": true,
+  "error_page": "y",
+  "routes": {
+    "/*.html": "index.html"
+  }
+}
+

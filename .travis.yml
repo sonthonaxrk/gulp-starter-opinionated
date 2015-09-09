@@ -1,0 +1,16 @@
+language: node_js
+env: TRAVIS_CI=true
+node_js:
+- '0.12'
+before_script:
+- export DISPLAY=:99.0
+- sh -e /etc/init.d/xvfb start
+- npm install -g bower
+- bower install
+deploy:
+  provider: divshot
+  environment:
+    master: development
+    staging: staging
+    production: production
+  skip_cleanup: true
